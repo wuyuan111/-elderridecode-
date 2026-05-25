@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">乘车码</string>
+    <string name="wechat_ride_code">微信乘车码</string>
+    <string name="alipay_ride_code">支付宝乘车码</string>
+    <string name="click_to_open">点击下方按钮打开乘车码</string>
+    <string name="wechat_not_installed">未安装微信，请先安装微信</string>
+    <string name="alipay_not_installed">未安装支付宝，请先安装支付宝</string>
+    <string name="open_wechat_hint">正在打开微信，请点击「我」→「服务」→「乘车码」</string>
+    <string name="open_alipay_hint">正在打开支付宝，请点击「付钱」→「乘车码」</string>
+</resources>

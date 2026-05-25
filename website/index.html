@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老年乘车 - 为老年人提供便捷的公交乘车码服务</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 0 40px;
+            background: linear-gradient(135deg, #4A90D9, #357ABD);
+            color: #fff;
+            border-radius: 0 0 20px 20px;
+        }
+        header h1 { font-size: 48px; margin-bottom: 10px; }
+        header p { font-size: 20px; opacity: 0.9; }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            font-size: 28px;
+            color: #4A90D9;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .card p { font-size: 18px; }
+        .features { list-style: none; }
+        .features li {
+            font-size: 20px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .features li::before { content: "✓ "; color: #4A90D9; font-weight: bold; }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>老年乘车</h1>
+        <p>为老年人提供便捷的公交乘车码服务</p>
+    </header>
+
+    <div class="container">
+        <section class="card">
+            <h2>应用简介</h2>
+            <p>老年乘车是一款专为老年用户设计的公交乘车码应用。通过大字体、大按钮和极简的操作流程，帮助老年人轻松使用微信乘车码和支付宝乘车码，无需复杂操作即可一键跳转二维码界面，让日常出行更加便捷。</p>
+        </section>
+
+        <section class="card">
+            <h2>主要功能</h2>
+            <ul class="features">
+                <li><strong>大字体大按钮设计</strong> — 界面清晰易读，按钮宽大易点，专为老年用户优化</li>
+                <li><strong>微信乘车码一键跳转</strong> — 点击即可直接打开微信乘车码页面，无需手动搜索</li>
+                <li><strong>支付宝乘车码一键跳转</strong> — 一键跳转支付宝公交乘车码，省去繁琐操作步骤</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>使用说明</h2>
+            <ol style="font-size: 18px; padding-left: 24px;">
+                <li style="margin-bottom: 12px;">安装并打开"老年乘车"应用</li>
+                <li style="margin-bottom: 12px;">在首页选择"微信乘车码"或"支付宝乘车码"</li>
+                <li style="margin-bottom: 12px;">应用将自动跳转到对应的乘车码页面</li>
+                <li style="margin-bottom: 12px;">将乘车码对准公交车扫码设备即可完成支付</li>
+            </ol>
+        </section>
+    </div>
+
+    <footer>
+        <p>老年乘车 &copy; 2025 ElderRideCode. All rights reserved.</p>
+    </footer>
+</body>
+</html>
